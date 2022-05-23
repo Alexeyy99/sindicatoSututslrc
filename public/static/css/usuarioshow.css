@@ -1,0 +1,10 @@
+.cardShow {
+    position: relative;
+    left: 40px;
+    top: -50px;
+}
+
+.info {
+    text-decoration: none;
+    text-decoration: wavy;
+}
