@@ -1,0 +1,55 @@
+.contenedor {
+    overflow: auto;
+    max-height: 650px;
+
+}
+
+.card {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.35);
+    position: relative;
+
+}
+
+.jumbotron {
+    right: 90px;
+    margin-top: 50px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.20);
+}
+
+.carta {
+    text-align: center;
+    right: 50px;
+}
+
+.col-6 {
+    align-items: center;
+}
+
+.cnt-footer {
+    position: absolute;
+    right: 50px;
+}
+
+/* .textinput {
+    height: auto;
+    width: 100%;
+    min-height: 75px;
+} */
+
+.form-control {
+    border-color: gray;
+}
+
+.btn-info {
+    align-items: left;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.grid {
+    position: relative;
+    left: 99px;
+    top: -75px;
+}
