@@ -12,6 +12,7 @@
                                 <li><a href="{{route('conocenos.mision')}}">Misión</a></li>
                                 <li><a href="{{route('conocenos.vision')}}">Visión</a></li>
                                 <li><a href="{{route('conocenos.valores')}}">Valores</a></li>
+                                {{-- @livewire('login.logout') --}}
                             </ul>
                         </li>
                         <li><a href="{{route('login')}}" class="button">Iniciar sesión</a></li>

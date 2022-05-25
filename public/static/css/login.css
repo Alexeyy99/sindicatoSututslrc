@@ -40,7 +40,7 @@ body{
 .form-group::before{
     font-family: "Font Awesome\ 5 Free";
     position: absolute;
-    left: 28px;
+    left: 32px;
     font-size: 22px;
     padding-top:4px;
 }
@@ -50,13 +50,15 @@ body{
 }
 
 .form-group#contrasena-group::before{
-    content: "\f13e";
+    content: "\f070";
 }
 
 button{
     width: 75%;
     margin: 4px 0 15px;
+    content: "\f35a";
 }
+
 a{
     width: 75%;
     margin: 4px 0 15px;

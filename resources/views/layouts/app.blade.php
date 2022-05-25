@@ -7,7 +7,10 @@
 		<link rel="stylesheet" href="{{ asset('static/css/main.css') }}"/>
 		<link rel="icon" href="{{ asset('static/images/sututslrc.png') }}">
 	</head>
+    @livewireScripts
+    @livewireStyles
 	<body class="landing is-preload">
+
 
         <div>
             {{$slot}}
@@ -22,5 +25,9 @@
 			<script src="{{ asset('static/js/util.js') }}"></script>
 			<script src="{{ asset('static/js/main.js') }}"></script>
         </div>
+
+    @livewireScripts
+    @livewireStyles
+
 	</body>
 </html>
