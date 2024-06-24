@@ -18,7 +18,7 @@ class Login extends Component
 
     public function login(){
         $datos = $this->validate();
-        
+
         if (Auth::attempt($datos)){
             return redirect(route('index'));
         }else{
@@ -26,5 +26,12 @@ class Login extends Component
             $this->email = null;
             $this->password = null;
         }
+    }
+
+    public function rules(){
+        return[
+            'email' => 'required|email',
+            'password' => 'required|min:8|string'
+        ];
     }
 }

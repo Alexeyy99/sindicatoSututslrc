@@ -5,6 +5,7 @@ use App\Http\Livewire\Conocenos\Valores;
 use App\Http\Livewire\Conocenos\Vision;
 use App\Http\Livewire\Index;
 use App\Http\Livewire\IniciarSesion\Login;
+use App\Http\Livewire\IniciarSesion\Logout;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,5 +29,11 @@ Route::get('/home', Index::class)->name('index');
 Route::get('/mision', Mision::class)->name('conocenos.mision');
 Route::get('/vision', Vision::class)->name('conocenos.vision');
 Route::get('/valores', Valores::class)->name('conocenos.valores');
+
 //Inicio de sesion
 Route::get('/login', Login::class)->name('login');
+
+Route::group(['middleware' => 'auth'], function (){
+
+});
+
